@@ -13,7 +13,7 @@ float coef_fil;
 float kp = 2;
 float ki = 4;
 float kd = 0.2;
-float periodo  = 0.0001; //segundos
+float periodo  = 0.001; //segundos
 
 void setup() {
   pinMode(ref, INPUT);
